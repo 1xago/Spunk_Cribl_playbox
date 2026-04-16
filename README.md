@@ -28,3 +28,12 @@ Expected structure:
 ├── logs.jsonl
 ├── attack_logs.jsonl
 └── cribl-config/
+
+## Send test events to Cribl
+
+This setup sends each line from logs.jsonl as a separate JSON event to the local Cribl HTTP endpoint.
+cat attack_logs.jsonl | while read line; do
+  curl -s -X POST http://localhost:10002 \
+    -H "Content-Type: application/json" \
+    -d "$line"
+done
