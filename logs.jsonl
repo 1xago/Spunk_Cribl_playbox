@@ -1,0 +1,13 @@
+{"user":"alice","ip":"10.0.0.5","action":"login","status":"success"}
+{"user":"bob","ip":"192.168.1.10","action":"login","status":"failed"}
+{"user":"bob","ip":"192.168.1.10","action":"login","status":"failed"}
+{"user":"bob","ip":"192.168.1.10","action":"login","status":"failed"}
+{"user":"bob","ip":"192.168.1.10","action":"login","status":"failed"}
+{"user":"admin","ip":"172.16.0.3","action":"login","status":"success"}
+{"user":"admin","ip":"172.16.0.3","action":"privilege_change","role":"superuser"}
+{"user":"eve","ip":"10.10.10.10","action":"scan","target":"internal_network"}
+{"user":"charlie","ip":"10.0.0.8","action":"download","file":"finance.xlsx"}
+{"user":"charlie","ip":"10.0.0.8","action":"download","file":"customer_data.csv"}
+{"user":"unknown","ip":"185.220.101.1","action":"login","status":"failed"}
+{"user":"unknown","ip":"185.220.101.1","action":"login","status":"failed"}
+{"user":"unknown","ip":"185.220.101.1","action":"login","status":"failed"}

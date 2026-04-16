@@ -1,0 +1,4 @@
+echo ".DS_Store" >> .gitignore
+echo ".env" >> .gitignore
+echo "splunk-var/" >> .gitignore
+echo "splunk-etc/.ui_login" >> .gitignore
